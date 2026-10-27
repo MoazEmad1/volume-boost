@@ -3,9 +3,11 @@
 A tiny Android TV app that makes the built-in speaker louder than the system's maximum. Made for cheap
 projectors and TVs whose speaker is still quiet at volume 100.
 
+![The Volume Boost screen on a projector: the current level and the Off, +3, +6, +9 and +12 dB buttons](docs/screenshot.png)
+
 - **Off, +3, +6, +9 or +12 dB**, picked with the remote.
 - Boosts **everything**: YouTube, streaming apps, HDMI.
-- **No internet permission, no ads, no tracking.** About 16 KB, four Java files, no libraries.
+- **No internet permission, no ads, no tracking.** About 13 KB, four Java files, no libraries.
 - Remembers the level and turns itself back on after a restart.
 
 ## How it works
