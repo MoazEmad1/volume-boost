@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
             Button btn = new Button(this);
             btn.setText(db == 0 ? "Off" : "+" + db + " dB");
             btn.setTextSize(22);
+            btn.setAllCaps(false);   // "dB", not "DB"
             btn.setOnClickListener(v -> {
                 BoostService.apply(this, level);
                 status.postDelayed(this::show, 500);
